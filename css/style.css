@@ -66,12 +66,12 @@ main{
 .left-col-blackwall{
     background-color: #EF8080;
     flex-basis: 30%;
-    min-height: 400px;
+    min-height: 700px;
     border: 2px dashed black;
 }
 .right-col-blackwall{
     background-color: #20B1A9;
-    flex-basis: 70%;
+    flex-basis: calc(70%/4);
     border: 2px dashed white;
 }
 
