@@ -1,0 +1,30 @@
+/* reset css */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* generics */
+body{
+    font-family: sans-serif;
+}
+.status-home{
+    background-color: #ADD8E6;
+    min-height: 50px;
+}
+.navbar-logo{
+    background-color: goldenrod;
+    min-height: 30px;
+    
+    border: 2px dashed black;
+}
+
+/* utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+}
+
