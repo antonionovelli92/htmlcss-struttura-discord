@@ -22,20 +22,11 @@ body{
     justify-content: space-around;
     /* margin-top: 10px; */
 }
-.navbar-logo {
+nav {
     border: 2px dashed black;
     
 }
-.navbar-link{
-    
-    border: 2px dashed black;
-    
-}
-.navbar-login{
-    
-    border: 2px dashed black;
-    
-}
+
 .box-blu{
     background-color: #00008B;
     min-height: 400px;
