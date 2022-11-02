@@ -52,7 +52,7 @@ flex-basis: 40%;
 border: 2px dashed black;
 }
 main{
-    margin: 20px auto;
+    margin: 1px auto;
 }
 .left-col-blackwall{
     background-color: #EF8080;
@@ -115,7 +115,7 @@ main{
 }
 .footer-wall{
     background-color: #23272A;
-    height: 70px;
+    min-height: 70px;
     padding: 10px;
 }
 .footer-box{
