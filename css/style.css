@@ -42,9 +42,9 @@ body{
 }
 .box-small{
     background-color: #EE81EE;
-    border: 2px dashed black;
     min-height: 300px;
     min-width: 700px;
+    border: 2px dashed black;
     margin: 50px auto;
     
     
@@ -86,6 +86,8 @@ main{
  .flex-box-small{
     display: flex;
     justify-content: center;
+    min-height: 300px;
+    min-width: 700px;
  }
  .col{
     margin: 30px auto;
@@ -95,7 +97,18 @@ main{
     flex-direction: row-reverse;
  }
  .wall-box{
-    background-color: gray;
-    flex-basis: 100%;
+    background-color: #D3D3D3;
+    padding: 10px;
     
  }
+ .column-green{
+    background-color: #228B21;
+   border: 2px dashed black;
+    min-height: 700px;
+    
+    
+}
+.black-wall{
+    background-color: #23272A;
+    padding: 10px;
+}
