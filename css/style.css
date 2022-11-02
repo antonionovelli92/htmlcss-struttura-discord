@@ -113,3 +113,21 @@ main{
     background-color: #23272A;
     padding: 10px;
 }
+.footer-wall{
+    background-color: #23272A;
+    height: 70px;
+    padding: 10px;
+}
+.footer-box{
+    background-color: #7FFFD3;
+
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-push{
+    background-color: #EF8080;
+    color: white;
+    margin: 20px 0;
+}
