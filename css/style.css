@@ -63,7 +63,17 @@ border: 2px dashed black;
 main{
     margin: 20px auto;
 }
-
+.left-col-blackwall{
+    background-color: #EF8080;
+    flex-basis: 30%;
+    min-height: 400px;
+    border: 2px dashed black;
+}
+.right-col-blackwall{
+    background-color: #20B1A9;
+    flex-basis: 70%;
+    border: 2px dashed white;
+}
 
 /* utils */
 .container {
