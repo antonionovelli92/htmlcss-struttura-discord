@@ -10,14 +10,60 @@ body{
 }
 .status-home{
     background-color: #ADD8E6;
-    min-height: 50px;
+    height: 70px;
+    padding: 10px;
 }
-.navbar-logo{
+.status-navbar{
+    /* margin top: 10px;
+    devo staccare la nav gialla */
+}
+.navbar{
     background-color: goldenrod;
-    min-height: 30px;
+    justify-content: space-around;
+    /* margin-top: 10px; */
+}
+.navbar-logo {
+    border: 2px dashed black;
+    
+}
+.navbar-link{
     
     border: 2px dashed black;
+    
 }
+.navbar-login{
+    
+    border: 2px dashed black;
+    
+}
+.box-blu{
+    background-color: #00008B;
+    min-height: 400px;
+}
+.box-small{
+    background-color: #EE81EE;
+    border: 2px dashed black;
+    min-height: 300px;
+    min-width: 700px;
+    margin: 50px auto;
+    
+    
+}
+.left-col{
+    background-color: #1C90FF;
+    flex-basis: 60%;
+    min-height: 400px;
+    border: 2px dashed black;
+}
+.right-col{
+background-color: #FFBFCB;
+flex-basis: 40%;
+border: 2px dashed black;
+}
+main{
+    margin: 20px auto;
+}
+
 
 /* utils */
 .container {
@@ -26,5 +72,30 @@ body{
 }
 .flex-container{
     display: flex;
+    justify-content: center;
+    flex-basis: calc(100%/3);
+    justify-content: space-between;
 }
-
+.flex-col{
+    display: flex;
+    flex-direction: row;
+}
+ .pd{
+    padding: 10px 10px;
+ }
+ .flex-box-small{
+    display: flex;
+    justify-content: center;
+ }
+ .col{
+    margin: 30px auto;
+    
+ }
+ .reverse-col{
+    flex-direction: row-reverse;
+ }
+ .wall-box{
+    background-color: gray;
+    flex-basis: 100%;
+    
+ }
